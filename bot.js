@@ -200,7 +200,7 @@ client.on('message', message => {
 client.on('guildCreate', guild => {
 var embed = new Discord.RichEmbed()
 .setColor(0x5500ff)
-.setDescription(`**THANKS FOR ADDING BOT HooliGansᵀᵉᵃᵐ**`)
+.setDescription(`**THANKS FOR ADDING BOT The Reapers Collobration**`)
     guild.owner.send(embed)
 });
 
@@ -340,7 +340,7 @@ client.on('guildMemberRemove', member => {
   .setDescription(`Good bye ✋:skin-tone-1: 😔 `)
   .addField('THEY STILL IN SERVER :',`**[ ${member.guild.memberCount} ]**`,true)
   .setColor('RED')
-  .setFooter(`==== (っ◔◡◔)っ ♥ 𝐇𝐎𝐏𝐄 𝐘𝐎𝐔 𝐄𝐍𝐉𝐎𝐘 ♥ ====`, 'https://cdn.discordapp.com/attachments/397818254439219217/399292026782351381/shy.png')
+  .setFooter(`==== (𝐇𝐎𝐏𝐄 𝐘𝐎𝐔 𝐄𝐍𝐉𝐎𝐘  ====`, 'https://cdn.discordapp.com/attachments/397818254439219217/399292026782351381/shy.png')
 
 var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
