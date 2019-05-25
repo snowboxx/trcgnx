@@ -237,7 +237,7 @@ client.on('guildMemberAdd', member => {
       .setColor('RANDOM')
       .setThumbnail(memberavatar)
       .addField('•🔰|Name» ',`${member}`)
-      .addField('•🌹|Welcome » ' , `Welcome to HooliGansᵀᵉᵃᵐ :tada::hugging: !, ${member}`)
+      .addField('•🌹|Welcome » ' , `Welcome to The Reapers Collobration :tada::hugging: !, ${member}`)
       .addField('•🆔| User ID » ', "**[" + `${member.id}` + "]**" )
               .addField('➡| YOU ARE NUMBER',`${member.guild.memberCount}`)                     
                                    .addField('•🔮|Server Name » ', `${member.guild.name}`,true)
